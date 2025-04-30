@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PEBI - Apps que Funcionam (Mesmo que Simples)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #20232a;
+      color: #61dafb;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      color: #ccc;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      box-shadow: 0 0 15px #ddd;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #20232a;
+      margin-top: 30px;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #20232a;
+      color: #999;
+      margin-top: 40px;
+    }
+
+    .highlight {
+      color: #ff6347;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PEBI</h1>
+    <p>Aplicativos simples, mas que não te deixam na mão.</p>
+  </header>
+
+  <main>
+    <h2>Quem somos?</h2>
+    <p>Somos a <strong>OffGrid System</strong>, uma micro iniciativa que acredita que a tecnologia não precisa ser cara, nem enrolada. Criamos apps que cabem no bolso — do celular e do seu orçamento.</p>
+
+    <h2>O que é a PEBI?</h2>
+    <p>A <strong>PEBI</strong> é nossa lojinha digital independente. Aqui, a ideia é fugir do “padrãozão”: sem taxas absurdas, sem burocracia, sem frescura.</p>
+    <p>Queremos fazer apps que realmente servem pra alguma coisa. Se possível, até divertem. E tudo isso <span class="highlight">offline, leve e direto ao ponto</span>.</p>
+
+    <h2>O que vem por aí?</h2>
+    <p>Estamos criando ferramentas simples, como um organizador de rotina offline, utilitários úteis e outras invenções meio malucas que você não sabia que precisava... até usar.</p>
+    <p>Em breve, você vai poder baixar tudo aqui mesmo — e, se curtir, apoiar com uma graninha simbólica (tipo um café, só que você recebe um app em vez de cafeína).</p>
+
+    <h2>Nosso lema:</h2>
+    <p><em>Simples, Barato, Rápido e Eficaz. O resto é firula.</em></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PEBI / OffGrid System. Feito com simplicidade.</p>
+  </footer>
+
+</body>
+</html>
