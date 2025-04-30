@@ -33,7 +33,7 @@
 
     main {
       padding: 40px 20px;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
       background: #fff;
       box-shadow: 0 0 15px #ddd;
@@ -42,7 +42,12 @@
 
     h2 {
       color: #20232a;
-      margin-top: 30px;
+      margin-top: 40px;
+    }
+
+    h3 {
+      color: #444;
+      margin-top: 25px;
     }
 
     p {
@@ -61,6 +66,18 @@
     .highlight {
       color: #ff6347;
       font-weight: bold;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background: #f9f9f9;
+    }
+
+    .card:hover {
+      background: #f0f0f0;
     }
   </style>
 </head>
@@ -85,10 +102,32 @@
 
     <h2>Nosso lema:</h2>
     <p><em>Simples, Barato, Rápido e Eficaz. O resto é firula.</em></p>
+
+    <h2>Projetos em Desenvolvimento</h2>
+
+    <div class="card">
+      <h3>Rotina Offline</h3>
+      <p>Um organizador de tarefas 100% offline. Sem login, sem anúncios, sem depender de internet. Pensado pra funcionar até em celular velho, é o tipo de app que você baixa uma vez e resolve a vida. Planeje seu dia, organize metas e tenha tudo local. Minimalista de verdade.</p>
+    </div>
+
+    <div class="card">
+      <h3>ZenCoin - Seu Dinheiro na Calma</h3>
+      <p>Um assistente financeiro simples, direto, e offline. Controle de gastos, entradas e saídas sem paranoia e sem precisar conectar com banco nenhum. ZenCoin te ajuda a manter o controle da grana, com uma interface intuitiva e foco total na privacidade.</p>
+    </div>
+
+    <div class="card">
+      <h3>PebiOS - O Sistema Peba (com Orgulho)</h3>
+      <p>Um sistema operacional leve, alternativo e com personalidade. PebiOS é pra quem cansou de sistemas pesados e quer algo direto, funcional e minimalista. Ideal pra dispositivos antigos ou pra quem quer testar uma vibe fora da caixa.</p>
+    </div>
+
+    <div class="card">
+      <h3>Off Store - A Nova Play Store</h3>
+      <p>Cansado das taxas da Play Store? A Off Store é nossa proposta de loja digital independente, com foco em acessibilidade pra devs pequenos. Cobrança simbólica, taxa baixa e liberdade total. Aqui o desenvolvedor é valorizado e o usuário encontra apps que realmente resolvem.</p>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 PEBI / OffGrid System. Feito com simplicidade.</p>
+    <p>&copy; 2025 PEBI / OffGrid System. Feito com simplicidade e atitude.</p>
   </footer>
 
 </body>
